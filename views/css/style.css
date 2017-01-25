@@ -49,3 +49,17 @@ form {
  .container {
   background-color: rgba(240, 60, 60, 0.8);
 }
+ h2 {
+   text-align: center;
+ }
+#pizza0, #pizza1 {
+  width:33.33%; height: 325px;
+}
+
+ #pizza0:nth-child(0), #pizza1:nth-child(0) {
+   width: 35%;
+ }
+
+#pizza0:nth-child(1), #pizza1:nth-child(1) {
+  width: 65%;
+}
